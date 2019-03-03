@@ -7,8 +7,15 @@
         // modal
         $('.modal').modal();
         
+        // carousel
+        $('.carousel').carousel();
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true,
+            indicators: true
+        });
+        
         // card tab
-        // $('.tabs').tabs();
+        $('.tabs').tabs();
         
         // dropdown
         // $('.dropdown-trigger').dropdown();
