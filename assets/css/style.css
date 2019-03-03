@@ -1,0 +1,14 @@
+/* custom stylesheet */
+
+/* some materialize body styles */
+.icon-block .section .container .row{
+    padding: 0!important;
+}
+
+.icon-block .material-icons{
+	font-size: inherit;
+}
+
+.modal{
+    padding: 6px !important;
+}
