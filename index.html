@@ -16,20 +16,22 @@
     
     <body>
         <!-- header -->
-        <nav class="blue-grey lighten-2" role="navigation">
-            <div class="nav-wrapper container"><a id="logo-container" class="brand-logo">Aniela 'Ellie' Parobek</a>
+        <nav class="transparent fixed" role="navigation">
+            <div class="nav-wrapper container"><a id="logo-container" class="brand-logo">aniela parobek</a>
                 <!-- nav -->
                 <ul class="right">
                     <li><a class="blue-grey darken-1 waves-effect waves-light btn modal-trigger" href="#modalNav">Navigation</a></li>
                     <!-- modal -->
                     <div id="modalNav" class="modal modal-content grey-text text-darken-2">
-                        <h4 class="black-text no-padding">Navigation</h4>
+                        <h4 class="blue-grey-text darken-4 center">Navigation</h4>
                         <!-- nav links -->
                         <ul class="input-field col s12">
-                            <li><a></a></li>
+                            <li><a class="modal-close blue-grey-text darken-4" href="#third">Third Year</a></li>
+                            <li><a class="modal-close blue-grey-text darken-4" href="#second">Second Year</a></li>
+                            <li><a class="modal-close blue-grey-text darken-4" href="#personal">Personal Projects</a></li>
                         </ul>
                         <div class="modal-footer">
-                            <a href="" class="modal-close waves-effect waves-light btn-flat">Close</a>
+                            <a class="modal-close waves-effect waves-light btn-flat">Close</a>
                         </div>
                     </div>
                 </ul>
@@ -37,56 +39,139 @@
         </nav>
         
         <!-- center info -->
-        <div class="container section">
-            <!-- personal projects -->
-            <div class="row s9 m9">
-                <h1 class="header left blue-grey-text text-lighten-1">Personal Projects</h1>
-                <!-- put each project into a column, then into a modal when clicked , collapsible inside with info?-->
-                <div class="col s4 m4">
-                
-                </div>
-                <div class="col s4 m4">
-                
-                </div>
-                <div class="col s4 m4 card">
-                    <div class="card-image">
-                        <img src="assets/img/oregon.png">
-                        <span class="card-title">My Art</span>
-                        <a class="btn-floating halfway-fab waves-effect waves-light red modal-trigger" href="#modalArt"><i class="material-icons">add</i></a>
-                        <!-- art modal -->
-                        <div id="modalArt" class="modal modal-content grey-text text-darken-2">
-                            <h4 class="blue-grey-text text-darken-2">Some of my Art:</h4>
-                            <!-- carousel -->
-                            <div class="carousel">
-                                <a class="carousel-item" href="#two!"><img src="/assets/img/mt.png"></a>
-                                <a class="carousel-item" href="#three!"><img src="/assets/img/tg.png"></a>
-                                <a class="carousel-item" href="#four!"><img src="/assets/img/dokkaebi.gif"></a>
-                                <a class="carousel-item" href="#five!"><img src="/assets/img/squishgif.gif"></a>
-                            </div>
-                            <div class="modal-footer">
-                                <a href="" class="modal-close waves-effect waves-light btn-flat">Close</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <p>In my freetime, I enjoy making pixel art and hope to improve.</p>
-                    </div>
-                </div>
-            </div>
+        <div class="container section centerInfo">
             <!-- 3rd year -->
+            <h3 id="third" class="header left white-text">Third Year</h3><h2 class="header center hidden">-</h2>
             <div class="row s9 m9">
-                <h1 class="header left blue-grey-text text-lighten-1">Third Year</h1>
-
+                <div class="col s12">
+                    <ul class="tabs tabs-fixed-width">
+                        <li class="tab col s3"><a class="active" href="#tab1">ISTE340</a></li>
+                        <li class="tab col s3"><a href="#tab2">ISTE260</a></li>
+                        <li class="tab col s3"><a href="#tab3">ISTE330</a></li>
+                        <li class="tab col s3"><a href="#tab4">SWEN383</a></li>
+                        <li class="tab col s3"><a href="#tab5">ISTE252</a></li>
+                        <li class="tab col s3"><a href="#tab6">ISTE341</a></li>
+                        <li class="tab col s3"><a href="#tab7">ISTE432</a></li>
+                    </ul>
+                </div>
+                <div id="tab1" class="col s12">
+                    <h5 class="header center white-text">Client Programming</h5>
+                
+                </div>
+                <div id="tab2" class="col s12">
+                     <h5 class="header center white-text">Designing the User Experience</h5>
+                    
+                </div>
+                <div id="tab3" class="col s12">
+                     <h5 class="header center white-text">Database Connectivity and Access</h5>
+                    
+                </div>
+                <div id="tab4" class="col s12">
+                    <h5 class="header center white-text">Software Design Principles and Patterns</h5>
+                    
+                </div>
+                <div id="tab5" class="col s12">
+                    <h5 class="header center white-text">Foundations of Mobile Design</h5>
+                    
+                </div>
+                <div id="tab6" class="col s12">
+                    <h5 class="header center white-text">Server Programming</h5>
+                    
+                </div>
+                <div id="tab7" class="col s12">
+                    <h5 class="header center white-text">Database Application Development</h5>
+                    
+                </div>
             </div>
             <!-- 2nd year -->
+            <h3 id="second" class="header left white-text">Second Year</h3><h2 class="header center hidden">-</h2>
             <div class="row s9 m9">
-                <h1 class="header left blue-grey-text text-lighten-1">Second Year</h1>
-
+                <div class="col s12">
+                    <ul class="tabs tabs-fixed-width">
+                        <li class="tab col s3"><a class="active" href="#2tab1">ISTE240</a></li>
+                        <li class="tab col s3"><a href="#2tab2">ISTE140</a></li>
+                        <li class="tab col s3"><a href="#2tab3">CSCI140</a></li>
+                        <li class="tab col s3"><a href="#2tab4">ISTE121</a></li>
+                        <li class="tab col s3"><a href="#2tab5">ISTE120</a></li>
+                        <li class="tab col s3"><a href="#2tab6">ISTE230</a></li>
+                    </ul>
+                </div>
+                <div id="2tab1" class="col s12">
+                    <h5 class="header center white-text">Web and Mobile II</h5>
+                
+                </div>
+                <div id="2tab2" class="col s12">
+                     <h5 class="header center white-text">Web and Mobile I</h5>
+                    
+                </div>
+                <div id="2tab3" class="col s12">
+                     <h5 class="header center white-text">Computer Science I &amp; II</h5>
+                    
+                </div>
+                <div id="2tab4" class="col s12">
+                    <h5 class="header center white-text">Computational Problem Solving For the Information Domain II</h5>
+                    
+                </div>
+                <div id="2tab5" class="col s12">
+                    <h5 class="header center white-text">Computational Problem Solving For the Information Domain I</h5>
+                    
+                </div>
+                <div id="2tab6" class="col s12">
+                    <h5 class="header center white-text">Introduction to Database and Data Modeling</h5>
+                    
+                </div>
             </div>
-            <!-- 1st year -->
+            <!-- personal projects -->
+            <h3 id="personal" class="header left white-text">Personal Projects</h3><h2 class="header center hidden">-</h2>
             <div class="row s9 m9">
-                <h1 class="header left blue-grey-text text-lighten-1">First Year</h1>
-
+                <div class="col s4 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/img/bg.jpg">
+                            <a class="btn-large btn-floating halfway-fab waves-effect waves-light deep-orange lighten-2"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">This Site!</span>
+                            <p>I made this site to display all of my programming projects throughout college in an organized way. Since my first year was only gen-ed classes, I did not include it.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/img/telestrations.png">
+                            <a class="btn-large btn-floating halfway-fab waves-effect waves-light deep-orange lighten-2"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Telestrations</span>
+                            <p>A personal project two friends and I are working on which is web app similar to the telephone game. Uses an open source drawing script to pass drawings between players connected to the game. Client side in HTML, JavaScript, and CSS stylized using Materialize, a front end development library similar to Bootstrap. Server side uses a database to pull and store aspects of the game for each user using SQLite and Go.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4 m4">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">My Art</span>
+                            <p>In my freetime, I enjoy making pixel art and hope to improve. Here are some examples:</p>
+                        </div>
+                        <div class="card-tabs">
+                            <ul class="tabs tabs-fixed-width">
+                                <li class="tab"><a class="active" href="#1">1</a></li>
+                                <li class="tab"><a href="#2">2</a></li>
+                                <li class="tab"><a href="#3">3</a></li>
+                                <li class="tab"><a href="#4">4</a></li>
+                                <li class="tab"><a href="#5">5</a></li>
+                            </ul>
+                        </div>
+                        <div class="card-content grey lighten-4">
+                            <div id="1"><img src="/assets/img/oregon.png"></div>
+                            <div id="2"><img src="/assets/img/mt.png"></div>
+                            <div id="3"><img src="/assets/img/space.png"></div>
+                            <div id="4"><img src="/assets/img/dokkaebi.gif"></div>
+                            <div id="5"><img src="/assets/img/eto.png"></div>
+                        </div>
+                    </div>  
+                </div>
             </div>
         </div>
 
@@ -95,7 +180,7 @@
             <div class="container row">
                 <div class="col l6 s12">
                     <h5 class="white-text">About Me</h5>
-                    <p class="white-text">-  hey im cool</p>
+                    <p class="white-text">I am currently a Junior at RIT seeking a web-development co-op/ internship using strong full-stack development skills. I have experience in back-end development but my passion is working in front-end. My best skills include working with HTML, CSS, JavaScript, Java, and jQuery. Right now, I am working on becoming more experienced with Ajax and PHP.</p>
                 </div>
                 <div style="padding-left:50px!important;"class="col l6 s12">
                     <h5 class="white-text">Links</h5>
@@ -105,6 +190,12 @@
                         <li><a target="_blank" class="white-text" href="https://www.linkedin.com/in/aniela-parobek-470143150/">LinkedIn</a></li>
                         <li><a target="_blank" class="white-text" href="https://materializecss.com/">Materialize</a></li>
                     </ul>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2014 Copyright Text
+                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
                 </div>
             </div>
         </footer>

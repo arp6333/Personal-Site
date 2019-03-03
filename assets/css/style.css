@@ -12,3 +12,29 @@
 .modal{
     padding: 6px !important;
 }
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+body{
+    background-image: url("../img/bg.jpg");
+    background-color: #b3bfd5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hidden{
+    opacity: 0;
+}
+
+.fixed{
+    position: fixed;
+    z-index: 20;
+    background-color: #b3bfd5!important;
+}
+
+.centerInfo{
+    padding-top: 50px;
+}
