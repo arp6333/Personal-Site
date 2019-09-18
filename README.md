@@ -1,1 +1,1 @@
-A beautiful home page by and for Ellie Parobek
+A beautiful home page by and for Aniela/Ellie Parobek
